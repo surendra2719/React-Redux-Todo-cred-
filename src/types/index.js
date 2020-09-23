@@ -1,0 +1,6 @@
+export default {
+    ADD_INPUT: `ADD_INPUT`,
+    DELETE_INPUT: `DELETE_INPUT`,
+    UPDATE_INPUT: `UPDATE_INPUT`,
+    SET_INPUT: `SET_INPUT`
+}
