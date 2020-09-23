@@ -8,7 +8,6 @@ let initialSate = {
 export default (state = initialSate, action) => {
     switch (action.type) {
         case types.SET_INPUT:
-            console.log(`setInput reducer `, action.payload);
             return {
                 ...state.currentItem,
                 key: action.payload.key,
